@@ -1,3 +1,5 @@
+# https://ozzmaker.com/using-python-with-a-gps-receiver-on-a-raspberry-pi/
+
 # Werkt volledig: vult na een paar seconden de variabelen in tenzij het signaal niet geldig is
 # Deze versie zorgt dat zowel GNxxx als GPxxx files kunnen gelezen worden. serial_gps9bis.py 
 # Aangepast om met epoch tijd iedere minut een file met de data weg te schrijven
