@@ -20,7 +20,9 @@ In het eerste geval begint de lijn met GPxxx in het andere geval GNxxx. Dit prog
 Het programma 'serial_gpsXX.py' maakt 2 files aan. 'gpsd.csv' en bevat respectivelijk 'datum, time, latitude, longitude, altitude, snelheid, richting, aantal sat en afstand' de andere file 'gpsx.csv' bevat enkel 'latitude en longitude'. De files worden iedere 60 seconden aangevuld. Met de file 'gpsx.csv' kan een plot gemaakt worden op een kaart,zie DEEL2.  afgesloten. 
 Beide files bevatten ook een datum. Dus worden volgende files aangemaakt: ddmmyygpsx.csv en ddmmyygpsd.csv. Zo kan bij het plotten alles beter gescheiden worden.
 
-Om een propere shut down mogelijk te maken voorzien we een reedcontact tussen GPIO17 en GND. Met een magneetje wordt de Raspberry proper.
+De file met de data ddmmyygpsd.csv bevat ook de afgelegde weg. Ideaal om na een wandeling de afstand te bekijken. Met de plot wordt de wandeling zichtbaar.
+
+Om een propere shut down mogelijk te maken voorzien we een reedcontact tussen GPIO17 en GND. Met een magneetje wordt de Raspberry proper afgesloten.
 
 
 DEEL2.
