@@ -29,6 +29,7 @@ DEEL2.
 
 Met een afzonderlijk programma kunnen we de eerder opgenomen coördinaten zichtbaar maken op een kaart. File 'ddmmyygpsx.csv'. Om dit te laten werken zijn er 4 files nodig. Het programma die bestaat uit 2 files 'main2.py' en 'gps_class.py'. Een kaart 'map.png' en de opgenomen coördinaten 'ddmmyygpsx.csv'. Zorg dat deze 4 files in de zelfde map staan zodat ze tijdens het proces door het programma terug gevonden worden.
 
-Bij het starten zal het programma 'main2.py' vragen naar de datum van de gewenste file. Daarna zal de 'map.png' aangevuld worden met een plot v/d coördinaten te zien in 'resultMap.png' of een plot op het scherm. De keuze gebeurt door de juiste lijn actief te maken.
+Bij het starten zal het programma 'main2.py' vragen naar de datum van de gewenste file. Daarna zal de 'map.png' aangevuld worden met een plot v/d coördinaten te zien in 'resultMap.png' of een plot op het scherm. De keuze gebeurt door de juiste lijn actief te maken in 'main2.py' de laatste regels.
 
 Op basis van: https://towardsdatascience.com/simple-gps-data-visualization-using-python-and-open-street-maps-50f992e9b676
+NMEA0183 decoder: 
