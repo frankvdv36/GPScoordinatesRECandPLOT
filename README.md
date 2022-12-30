@@ -1,5 +1,5 @@
 # GPScoordinatesRECandPLOT
-Raspberry PI Python3 records coordinates en plot later on a openstreet map
+Raspberry PI Python3: records coordinates en plot later on a map
 
 DEEL1.
 
@@ -11,15 +11,17 @@ De inhoud en samenstelling wordt uitgelegd in bijlage NMEA0183.pdf
 
 Het programma neemt de data binnen via de serial0-bus op GPIO15 split deze en maakt de volgende variabelen:
 
-datum, time, latitude, longitude, altitude, snelheid, richting en aantal sat.
+datum, time, latitude, longitude, altitude, snelheid, richting, aantal sat, afstand (afgelegde wes na start-up).
 
 Er zijn gps-modules die enkel de US-satellieten ontvangen anderen ook de Chineese, Russische, Europese.
 
-In het eerste geval begint de lijn met GPxxx in het andere geval GNxxx. Dit programma werkt met beidie type modules.
+In het eerste geval begint de lijn met GPxxx in het andere geval GNxxx. Dit programma werkt met beide type modules.
 
-Het programma 'serial_gpsXX.py' maakt 2 files aan. 'GPSdata.csv' en bevat respectivelijk 'datum, time, latitude, longitude, altitude, snelheid, richting en aantal sat' de andere file 'coordinates.csv' bevat enkel 'latitude, longitude'. De files worden iedere 60 seconden aangevuld. Met de file 'coordinates.csv' kan een plot gemaakt worden op een kaart,zie DEEL2. Om een propere shut down mogelijk te maken voorzien we een reedcontact tussen GPIO17 en GND.
+Het programma 'serial_gpsXX.py' maakt 2 files aan. 'gpsd.csv' en bevat respectivelijk 'datum, time, latitude, longitude, altitude, snelheid, richting, aantal sat en afstand' de andere file 'gpsx.csv' bevat enkel 'latitude en longitude'. De files worden iedere 60 seconden aangevuld. Met de file 'gpsx.csv' kan een plot gemaakt worden op een kaart,zie DEEL2.  afgesloten. 
+Beide files bevatten ook een datum. Dus worden volgende files aangemaakt: ddmmyygpsx.csv en ddmmyygpsd.csv. Zo kan bij het plotten alles beter gescheiden worden.
 
-Als de Zero moet afgesloten worden, bijvoorbeeld op het einde van een trip, wordt een magneet in de buurt gebracht en de Raspberry schakelt uit.
+Om een propere shut down mogelijk te maken voorzien we een reedcontact tussen GPIO17 en GND. Met een magneetje wordt de Raspberry proper.
+
 
 DEEL2.
 
