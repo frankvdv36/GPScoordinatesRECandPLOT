@@ -33,3 +33,11 @@ Bij het starten zal het programma 'main2.py' wordt gevraagd naar de datum van de
 
 Op basis van: https://towardsdatascience.com/simple-gps-data-visualization-using-python-and-open-street-maps-50f992e9b676
 NMEA0183 decoder: https://ozzmaker.com/using-python-with-a-gps-receiver-on-a-raspberry-pi/
+
+
+AUTOSTART.
+
+Dit ontwerp kan perfect werken met een Raspberry Zero 2W. Daarop een GPS-module Neo8n en een externe antenne. Dit is klein en geschikt om mee te nemen op fiets, auto of te voet. Daarom is het wenselijk dat bij het aansluiten van een voeding µC automatisch opstart.
+De volgende bewerkingen worden in de teerminal ingegeven.
+- Zorg dat alle 'libraries' ingegeven worden met SUDO zodat ze voor alle gebruikers te bereiken zijn.
+- Zorg dat alle files in dezelfde map zitten. Deze zijn 'serial_gpsXX.py' 'main2.py' 'gps_class.py' 'map.png' 
