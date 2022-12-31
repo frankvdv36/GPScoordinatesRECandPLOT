@@ -38,6 +38,13 @@ NMEA0183 decoder: https://ozzmaker.com/using-python-with-a-gps-receiver-on-a-ras
 AUTOSTART.
 
 Dit ontwerp kan perfect werken met een Raspberry Zero 2W. Daarop een GPS-module Neo8n en een externe antenne. Dit is klein en geschikt om mee te nemen op fiets, auto of te voet. Daarom is het wenselijk dat bij het aansluiten van een voeding µC automatisch opstart.
-De volgende bewerkingen worden in de teerminal ingegeven.
+De volgende bewerkingen worden in de terminal ingegeven.
 - Zorg dat alle 'libraries' ingegeven worden met SUDO zodat ze voor alle gebruikers te bereiken zijn.
 - Zorg dat alle files in dezelfde map zitten. Deze zijn 'serial_gpsXX.py' 'main2.py' 'gps_class.py' 'map.png' 
+- geef in via terminal: sudo nano /etc/rc.local 
+- voeg voor 'exit0' het pad toe die verwijst naar de plaats van het programma, voorbeeld: python /home/pi/Python3/serial_gps16.py 
+- sla de aanpassing op en reboot
+- test of de toepassing loopt met: ps aux | grep /home/pi/Python3 of korter: ps aux | grep /Python3  
+- als alles goed is ziet u een nummer die aanheeft dat het proces loopt. Bij het opnieuw ingeven van vorigeinstructie komt steeds het zelfde nummer terug.
+- dit proces kan gestopt worden met: sudo kill XXX waarbij XXX het procesnummer is.
+
