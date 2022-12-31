@@ -34,6 +34,8 @@ Bij het starten zal het programma 'main2.py' wordt gevraagd naar de datum van de
 Op basis van: https://towardsdatascience.com/simple-gps-data-visualization-using-python-and-open-street-maps-50f992e9b676
 NMEA0183 decoder: https://ozzmaker.com/using-python-with-a-gps-receiver-on-a-raspberry-pi/
 
+Werkt prima op de raspberry Pi OS 64-bit. 
+
 
 AUTOSTART.
 
