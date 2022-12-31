@@ -45,6 +45,6 @@ De volgende bewerkingen worden in de terminal ingegeven.
 - voeg voor 'exit0' het pad toe die verwijst naar de plaats van het programma, voorbeeld: python /home/pi/Python3/serial_gps16.py 
 - sla de aanpassing op en reboot
 - test of de toepassing loopt met: ps aux | grep /home/pi/Python3 of korter: ps aux | grep /Python3  
-- als alles goed is ziet u een nummer die aanheeft dat het proces loopt. Bij het opnieuw ingeven van vorigeinstructie komt steeds het zelfde nummer terug.
+- als alles goed is ziet u een nummer die toont dat het proces loopt. Bij het opnieuw ingeven van vorige instructie komt steeds hetzelfde nummer terug.
 - dit proces kan gestopt worden met: sudo kill XXX waarbij XXX het procesnummer is.
-
+- eens de gps een geldig signaal ontvangt (led knippert) zal ook de files 'ddmmyygpsx.csv' en 'ddmmyygpsd.csv' aangemaakt worden. Dit bewijst ook dat het programma   loopt. 
