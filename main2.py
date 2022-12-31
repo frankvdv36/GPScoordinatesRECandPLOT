@@ -7,21 +7,6 @@
 
 import numpy as np
 
-'''
-map.png = mapHertsberge.png
-
-				51.1176(lat min)
-3.2561(long min)                3.3160(long max)
-				51.0936(lat max)
-
-(51.1176, 3.2561, 51.0936, 3.3160)
-
-Ander voorbeeld
-https://www.linkedin.com/pulse/geopandas-plotting-data-points-map-using-python-r%C3%A9gis-nisengwe/
-Live grafieken
-https://pythonprogramming.net/live-graphs-matplotlib-tutorial/
-
-'''
 #path = 'home/pi/Python3/LoraGPS/'
 fname = str(input("Datum file (DDMMYY): "))     # gebruik als er letters/cijfers zijn (str)
 
