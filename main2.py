@@ -1,6 +1,6 @@
 # https://towardsdatascience.com/simple-gps-data-visualization-using-python-and-open-street-maps-50f992e9b676
 
-# main2.py laat toe een datum in te geven 'DDMMYYgpsx,csv' en de kaart te plotten
+# main2.py laat toe een datum in te geven 'DDMMYYgpsx.csv' en de kaart te plotten
 # alles binnen hetzelfde 'path' plaatsen!
 
 import numpy as np
