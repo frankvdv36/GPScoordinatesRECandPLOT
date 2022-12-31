@@ -3,7 +3,7 @@
 # Lees leesme.txt
 
 # main2.py laat toe een datum in te geven 'DDMMYYgpsx,csv' en de kaart te plotten
-# alles binnen hetzelfde pat plaatsen!
+# alles binnen hetzelfde 'path' plaatsen!
 
 import numpy as np
 
