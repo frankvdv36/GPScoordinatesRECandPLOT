@@ -48,4 +48,4 @@ De volgende bewerkingen worden in de terminal ingegeven.
 - als alles goed is ziet u een nummer die toont dat het proces loopt. Bij het opnieuw ingeven van vorige instructie komt steeds hetzelfde nummer terug.
 - dit proces kan gestopt worden met: sudo kill XXX waarbij XXX het procesnummer is.
 - eens de gps een geldig signaal ontvangt (led knippert) zal ook de files 'ddmmyygpsx.csv' en 'ddmmyygpsd.csv' aangemaakt worden. Dit bewijst ook dat het programma   loopt. 
-- een propere beëindiging van het programma is toch noodzakelijk. Dus even een magneetje tegen het reedcontact houden.
+- een propere beëindiging van het programma is toch noodzakelijk. Dus even een magneetje tegen het reedcontact houden en wachten tot de groene lad van de µC stopt met branden, daarna de voeding loskoppelen.
