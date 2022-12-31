@@ -7,7 +7,7 @@
 
 import numpy as np
 
-#path = 'home/pi/Python3/LoraGPS/'
+# path = 'home/pi/Python3/LoraGPS/'
 fname = str(input("Datum file (DDMMYY): "))     # gebruik als er letters/cijfers zijn (str)
 
 
